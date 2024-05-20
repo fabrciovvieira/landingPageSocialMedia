@@ -1,0 +1,354 @@
+.topMore {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 2rem;
+}
+
+.moreImg {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    z-index: -1;
+}
+
+.moreImg img {
+    width: 289px;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+}
+.cicleMore {
+    background-color: #68D585;
+    width: 312px;
+    height: 312px;
+    border-radius: 50%;
+    position: relative;
+    margin: 3rem auto auto -2rem;
+}
+
+.categoryMore {
+    width: 470px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.headCategory {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.headCategory h3 {
+    font-size: 36px;
+}
+.headCategory p {
+    font-size: 15px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.details span {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.contactUs {
+    background-image: url('../../../public/bgimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5.6rem auto 0;
+}
+
+.contactUs h3 {
+    color: #fff;
+    font-size: 36px;
+    margin-top: 1rem;
+}
+.contactUs p {
+    color: #fff;
+    font-size: 15px;
+    width: 800px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.heart {
+    font-size: 3rem;
+}
+.icones {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.iconeContato {
+    fill: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+}
+.iconeContato:hover {
+    opacity: 0.6;
+}
+
+.formMsg {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin: 1rem auto;
+}
+
+.formMsg textarea {
+    resize: none;
+    width: 400px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.formMsg button {
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    color: #161C2D;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+.formMsg button:hover {
+    border: 1px solid #fff;
+    background-color: transparent;
+
+    color: #fff;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1200px) {
+    .contactUs p {
+        width: 700px;
+    }
+}
+@media (max-width: 500px) {
+    .topMore {
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+
+    .moreImg {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 7rem;
+        z-index: -1;
+    }
+    
+    .moreImg img {
+        width: 289px;
+        height: auto;
+        z-index: 1;
+        position: absolute;
+    }
+    .cicleMore {
+        background-color: #68D585;
+        width: 312px;
+        height: 312px;
+        border-radius: 50%;
+        position: relative;
+        margin: 3rem auto auto -2rem;
+    }
+    .headCategory h3 {
+        font-size: 26px;
+        width: 320px;
+        margin: auto;
+    }
+    .headCategory p {
+        font-size: 14px;
+        width: 320px;
+        margin: auto;
+    }
+    
+    .categoryMore {
+        width: 320px;
+        text-align: center;
+    }
+    .details {
+        margin-bottom: 1rem;
+        font-size: 11px;
+    }
+    .contactUs {
+        margin: -2rem auto 0;
+    }
+
+    .formMsg textarea {
+        resize: none;
+        width: 320px;
+        height: 70px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    .contactUs h3 {
+        color: #fff;
+        font-size: 26px;
+        margin: 1rem auto;
+        width: 320px;
+        text-align: center;
+    }
+    .contactUs p {
+        color: #fff;
+        font-size: 15px;
+        margin: 1rem auto;
+        width: 380px;
+        text-align: center;
+    }
+
+}
+@media (max-width: 400px) {
+    .topMore {
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+
+    .moreImg {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 7rem;
+        z-index: -1;
+    }
+    
+    .moreImg img {
+        width: 289px;
+        height: auto;
+        z-index: 1;
+        position: absolute;
+
+    }
+    .cicleMore {
+        background-color: #68D585;
+        width: 312px;
+        height: 312px;
+        border-radius: 50%;
+        position: relative;
+        margin: 3rem auto auto -2rem;
+    }
+    .headCategory h3 {
+        font-size: 26px;
+        width: 320px;
+        margin: auto;
+    }
+    .headCategory p {
+        font-size: 14px;
+        width: 320px;
+        margin: auto;
+    }
+    
+    .categoryMore {
+        width: 320px;
+        text-align: center;
+    }
+    .details {
+        margin-bottom: 1rem;
+        font-size: 11px;
+    }
+    .formMsg textarea {
+        resize: none;
+        width: 320px;
+        height: 70px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    .contactUs h3 {
+        color: #fff;
+        font-size: 26px;
+        margin: 1rem auto;
+        width: 320px;
+        text-align: center;
+    }
+    .contactUs p {
+        color: #fff;
+        font-size: 15px;
+        margin: 1rem auto;
+        width: 300px;
+        text-align: center;
+    }    
+
+}
+@media (max-width: 320px) {
+ 
+    .moreImg {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 7rem;
+        z-index: -1;
+    }
+    
+    .moreImg img {
+        width: 289px;
+        height: auto;
+        z-index: 1;
+        position: absolute;
+
+    }
+    .cicleMore {
+        background-color: #68D585;
+        width: 312px;
+        height: 312px;
+        border-radius: 50%;
+        position: relative;
+        margin: 3rem auto auto -2rem;
+    }
+    .headCategory h3 {
+        font-size: 26px;
+        width: 320px;
+        margin: auto;
+    }
+    .headCategory p {
+        font-size: 14px;
+        width: 320px;
+        margin: auto;
+    }
+    
+    .categoryMore {
+        width: 320px;
+        text-align: center;
+    }
+    .details {
+        margin-bottom: 1rem;
+        font-size: 11px;
+    }
+    .formMsg textarea {
+        width: 300px;
+    }
+    .contactUs h3 {
+        width: 300px;
+    }
+    .contactUs p {
+        width: 300px;
+    }    
+
+}

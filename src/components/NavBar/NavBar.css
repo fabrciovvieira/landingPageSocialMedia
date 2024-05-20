@@ -1,0 +1,159 @@
+.hamburger-menu {
+    display: none;
+    z-index: 1000;
+}
+
+.desktopMenu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    backdrop-filter: blur(100px);
+    width: 100%;
+    height: 45px;
+    margin: auto;
+    align-items: center;
+    position: fixed;
+    backdrop-filter: blur(100px);
+    z-index: 1000;
+
+}
+.desktopMenu h1 {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.desktopMenu ul {
+    display: flex;
+    gap: 2rem;
+    margin: auto 2rem;
+    align-items: center;
+}
+
+.itens {
+    opacity: 1;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.itens:hover {
+    opacity: 0.6;
+}
+/* RESPONSIVIDADE */
+
+@media (max-width: 500px) {
+    .desktopMenu {
+        display: none;
+    }
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        padding: 1rem;
+        backdrop-filter: blur(100px);
+        width: 100%;
+
+    }
+
+    .linksMobile {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .linksMobile h1 {
+        text-align: center;
+        padding-top: 3rem;
+    }
+    .developer {
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 14.5rem;
+        color: var(--color-light);
+
+    }
+    .linksMobile ul{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+    .btnMobile {
+        margin: 2rem auto;
+
+    }
+    .menu-btn {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+        z-index: 20;
+    }
+        
+    .btn-line {
+        width: 100%;
+        height: 2px;
+        background-color: var(--color-light);
+        transition: all 0.3s ease;
+    }
+    .open .btn-line:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .open .btn-line:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .open .btn-line:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+        
+    .menu {
+        display: none;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        padding: 1rem;
+        margin-top: 0rem;
+        transition: all 0.5s ease;
+        animation: closeMenu 0.5s linear;
+    }
+    
+    .menu.open {
+        display: block;        
+        background-color: #fff;
+        top: 0;
+        right: 0px;
+        height: 100vh;
+        transition: all 0.5s ease;
+    }
+
+    @keyframes moveMenu {
+        0% {
+        transform: translateX(-100%);
+        }
+        100% {
+        transform: translateX(0%);
+        }
+    }
+
+    .menu.open {
+        animation: moveMenu 0.5s linear;
+    }
+
+    @keyframes moveMenu {
+        0% {
+        transform: translateX(-100%);
+        }
+        100% {
+        transform: translateX(0%);
+        }
+    }
+}

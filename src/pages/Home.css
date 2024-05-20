@@ -1,0 +1,209 @@
+.home {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.imgHome img {
+    width: 408px;
+    height: 636px;
+    margin-bottom: -0.26rem;
+}
+
+.textoHome {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 8rem;
+    
+}
+
+.textoHome h2 {
+    margin-top: -14rem;
+    margin-left: 3rem;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Rubik";
+    
+}
+
+.textoHome p {
+    font-family: "Rubik";
+    font-weight: 300;
+    font-size: 19px;
+    margin: 1rem auto 1rem 3rem;
+    line-height: 28px;
+    width: 500px;
+}
+
+.textoHome .btn {
+    margin-left: 3em;
+}
+
+.textoHome span {
+    margin: 1rem auto auto 3.1rem;
+    font-family: "Rubik";
+    font-weight: bold;
+    letter-spacing: 1.63px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.textoHome span:hover {
+    letter-spacing: 0.9px;
+}
+.linkWhatsApp {
+    background-color: #161C2D;
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+
+}
+
+.linkWhatsApp p {
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.iconeWpp {
+    fill: #fff;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1024px) {
+    .imgHome img {
+        width: 308px;
+        height: 536px;
+    }
+
+    .textoHome h2 {
+        margin-left: 2rem;
+        font-size: 38px;        
+    }
+
+    .textoHome p {
+        font-size: 16px;
+        margin: 1rem auto 1rem 2rem;
+        width: 450px;
+    }
+
+    .textoHome .btn {
+        margin-left: 2rem;
+    }
+
+    .textoHome span {
+        margin: 1.5rem auto auto 2.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .imgHome img {
+        width: 178px;
+        height: 306px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .home {
+        padding-top: 10rem;
+
+
+    }
+}
+@media (max-width: 500px) {
+    .home {
+        padding-top: 10rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .textoHome h2 {
+        text-align: center;
+        font-size: 28px;  
+        width: 100%;    
+        margin-left: 0rem;  
+    }
+
+    .textoHome p {
+        font-size: 16px;
+        margin: 1rem auto;
+        text-align: center;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textoHome .btn {
+        margin: auto;
+    }
+
+    .textoHome span {
+        margin: 1rem auto;
+    }
+
+    .linkWhatsApp {
+        background-color: #161C2D;
+        width: 100%;
+        height: 76px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.7rem;
+    
+    }
+
+    .linkWhatsApp p {
+        color: #fff;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    .iconeWpp {
+        fill: #fff;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 360px) {
+    .linkWhatsApp p {
+        color: #fff;
+        font-size: 8px;
+        cursor: pointer;
+    }
+    .imgHome img {
+        width: 178px;
+        height: 276px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
+@media (max-width: 320px) {
+    .textoHome h2 {
+        text-align: center;
+        font-size: 20px;  
+        width: 100%;    
+        margin-left: 0rem;  
+    }
+
+    .textoHome p {
+        font-size: 13px;
+        margin: 1rem auto;
+        text-align: center;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

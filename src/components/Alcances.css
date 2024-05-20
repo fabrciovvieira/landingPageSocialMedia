@@ -1,0 +1,215 @@
+.container-alcance {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 3rem;
+    margin:  4rem 3rem;
+    align-items: center;
+}
+
+.imageAlcance img {
+    width: 309px;
+    height: auto;
+}
+
+.infoAlcances {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.infoAlcances h2 {
+    font-size: 27px;
+}
+.infoAlcances p {
+    font-size: 14px;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1200px) { 
+    .imageAlcance img {
+        width: 209px;
+        height: auto;
+    }
+    .container-alcance {
+        margin:  4rem auto;
+        align-items: center;
+        width: 790px;
+    }
+
+    
+}
+@media (max-width: 768px) { 
+    .imageAlcance img {
+        width: 209px;
+        height: auto;
+    }
+    .container-alcance {
+        margin:  4rem auto;
+        align-items: center;
+        width: 740px;
+    }
+
+    
+}
+@media (max-width: 500px) { 
+    .imageAlcance img {
+        width: 209px;
+        height: auto;
+    }
+    .container-alcance {
+        margin:  4rem auto;
+        align-items: center;
+        flex-direction: column;
+        width: 400px;
+    }
+    .infoAlcances {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .infoAlcances h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .infoAlcances p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .infoAlcances .btn{
+        margin: auto;
+    }
+    
+}
+@media (max-width: 415px) { 
+    .imageAlcance img {
+        width: 209px;
+        height: auto;
+    }
+    .container-alcance {
+        margin:  4rem auto;
+        align-items: center;
+        flex-direction: column;
+        width: 380px;
+    }
+    .infoAlcances {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .infoAlcances h2 {
+        font-size: 17px;
+        text-align: center;
+    }
+    .infoAlcances p {
+        font-size: 10px;
+        width: 390px;
+        text-align: center;
+    }
+    .infoAlcances .btn{
+        margin: auto;
+    }
+    
+}
+@media (max-width: 390px) { 
+    .imageAlcance img {
+        width: 209px;
+        height: auto;
+    }
+    .container-alcance {
+        margin:  4rem auto;
+        align-items: center;
+        flex-direction: column;
+        width: 350px;
+    }
+    .infoAlcances {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .infoAlcances h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .infoAlcances p {
+        font-size: 11px;
+        text-align: center;
+        width: 360px;
+    }
+    .infoAlcances .btn{
+        margin: auto;
+    }
+    
+}
+@media (max-width: 360px) { 
+    .imageAlcance img {
+        width: 209px;
+        height: auto;
+    }
+    .container-alcance {
+        margin:  4rem auto;
+        align-items: center;
+        flex-direction: column;
+    }
+    .infoAlcances {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .infoAlcances h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .infoAlcances p {
+        font-size: 11px;
+        text-align: center;
+        width: 340px;
+    }
+    .infoAlcances .btn{
+        margin: auto;
+    }
+    
+}
+@media (max-width: 320px) { 
+    .imageAlcance img {
+        width: 209px;
+        height: auto;
+    }
+    .container-alcance {
+        margin:  4rem auto;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+    }
+    .infoAlcances {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .infoAlcances h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .infoAlcances p {
+        font-size: 11px;
+        text-align: center;
+        width: 300px;
+    }
+    .infoAlcances .btn{
+        margin: auto;
+    }
+    
+}

@@ -1,0 +1,233 @@
+.container-Servicos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    width: 100%;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.headServicos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    gap: 1rem;
+}
+
+.headServicos h2 {
+    font-size: 36px;
+}
+.headServicos p {
+    font-size: 14px;
+}
+
+.allServicos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 4rem auto;
+    gap: 4rem;
+}
+
+.typeServico {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    gap: 1rem;
+}
+
+.descServico h3 {
+    font-size: 15px;
+}
+.descServico p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.more {
+    color: #473BF0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1200px) {
+    .typeServico {
+        width: 300px;
+        gap: 0.3rem;
+    }
+
+    .descServico img {
+        width: 290px;
+        height: auto;
+    }
+    .descServico h3 {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1024px) {
+    .typeServico {
+        width: 290px;
+        gap: 0.7rem;
+    }
+
+    .descServico img {
+        width: 270px;
+        height: auto;
+    }
+    .descServico h3 {
+        font-size: 12px;
+    }
+}
+@media (max-width: 900px) {
+    .typeServico {
+        width: 220px;
+        gap: 0.1rem;
+    }
+
+    .descServico img {
+        width: 200px;
+        height: auto;
+    }
+    .descServico h3 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .headServicos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 760px;
+        margin: auto;
+        gap: 1rem;
+    }
+    .typeServico {
+        width: 200px;
+        gap: 0.1rem;
+    }
+
+    .descServico img {
+        width: 180px;
+        height: auto;
+    }
+    .descServico h3 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 500px) {
+    .headServicos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 420px;
+        margin: auto;
+        gap: 1rem;
+    }
+    .allServicos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 4rem auto;
+        gap: 4rem;
+        text-align: center;
+    }
+    .typeServico {
+        width: 200px;
+        gap: 0.1rem;
+    }
+
+    .descServico img {
+        width: 180px;
+        height: auto;
+    }
+    .descServico h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .more {
+        text-align: center;
+        margin: auto;
+    }
+}
+@media (max-width: 430px) {
+    .headServicos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        gap: 1rem;
+    }
+    .allServicos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 4rem auto;
+        gap: 4rem;
+    }
+    .typeServico {
+        width: 200px;
+        gap: 0.1rem;
+    }
+
+    .descServico img {
+        width: 180px;
+        height: auto;
+    }
+    .descServico h3 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 400px) {
+    .headServicos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 350px;
+        margin: auto;
+        gap: 1rem;
+    }
+    .allServicos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 4rem auto;
+        gap: 4rem;
+    }
+    .typeServico {
+        width: 200px;
+        gap: 0.1rem;
+    }
+
+    .descServico img {
+        width: 180px;
+        height: auto;
+    }
+    .descServico h3 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 360px) {
+    .headServicos {
+        width: 320px;
+    }
+    
+}
